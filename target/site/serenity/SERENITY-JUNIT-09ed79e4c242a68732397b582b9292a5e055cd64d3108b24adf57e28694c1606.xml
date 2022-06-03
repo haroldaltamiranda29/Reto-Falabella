@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Simulacion en la pagina de Falabella consulta y pago de productos" skipped="0" tests="1" time="7.56" timestamp="2022-06-03 10:23:13"><testcase name="Simular la compra de un producto"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+co.com.choucair.falabella.tasks.AbrirPaginaFalabella.performAs(AbrirPaginaFalabella.java:19)&#13;
+co.com.choucair.falabella.stepdefinitions.FalabellaStepDefinitions.queEstoyEnLaPaginaFalabella(FalabellaStepDefinitions.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

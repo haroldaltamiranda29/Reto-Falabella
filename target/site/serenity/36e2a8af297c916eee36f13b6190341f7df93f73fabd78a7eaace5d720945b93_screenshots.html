@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7ca1ab25d53155f31b0b93ae2f67d8daaea4251229836c4dfd83cad46e911382.html">Simulacion En La Pagina De Falabella Consulta Y Pago De Productos</a></span>
+                > <span class="truncate-60"><a
+                    href="36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.html">Simular la compra de un producto </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-06-2022 17:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Simulacion En La Pagina De Falabella Consulta Y Pago De Productos </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como un usuario no registrado de Falabella<br />
+Quiero consultar una de las categorías<br />
+Para seleccionar uno de sus productos y simular la compra
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2df9a6180565e343646106a542f8d8c5880ca94ecfaade3785bfca738658c99a.html">Hu
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="a99e6b7557c80810b66d599c7e63887e466063e4e1214e5e19dd9d72d143e305.html">CP
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Simular la compra de un producto
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="33f26c17544feea33db2738c70ddfd5b85e0644a5fd37217a00d9ea72b55ef47.png" title=" Dado que estoy en la pagina falabella" width="1366"/>
+                <img src="33f26c17544feea33db2738c70ddfd5b85e0644a5fd37217a00d9ea72b55ef47.png" title=" Harold abrir pagina falabella" width="1366"/>
+                <img src="33f26c17544feea33db2738c70ddfd5b85e0644a5fd37217a00d9ea72b55ef47.png" title=" Harold opens the Falabella page" width="1366"/>
+                <img src="33f26c17544feea33db2738c70ddfd5b85e0644a5fd37217a00d9ea72b55ef47.png" title=" Harold abrir pagina falabella (completed)" width="1366"/>
+                <img src="96356e5323318d173988720e82e841eaa5e1389ad462ff48b3d2b04d604de0c5.png" title=" Dado que estoy en la pagina falabella (completed)" width="1366"/>
+                <img src="a0b31fba06468083146068fb7099df47f98cd138763f166009a032c5e1779736.png" title=" Cuando selecciono una categoria y subcategoria" width="1366"/>
+                <img src="a0b31fba06468083146068fb7099df47f98cd138763f166009a032c5e1779736.png" title=" Harold seleccionar" width="1366"/>
+                <img src="a0b31fba06468083146068fb7099df47f98cd138763f166009a032c5e1779736.png" title=" Harold clicks on Selecciona el boton Categorias" width="1366"/>
+                <img src="0111bbfb65e56052f3ce1aec78c22a25abd1b3811cc0a3c70ece92020494ca2b.png" title=" Harold clicks on Selecciona el boton SubCategorias" width="1366"/>
+                <img src="33124c13956d0d1be03568223393aa30c1a2d8a1c02732e13f926f221cb56a8f.png" title=" Harold clicks on Selecciona el boton del menu de SubCategorias" width="1366"/>
+                <img src="33124c13956d0d1be03568223393aa30c1a2d8a1c02732e13f926f221cb56a8f.png" title=" Harold seleccionar (completed)" width="1366"/>
+                <img src="33124c13956d0d1be03568223393aa30c1a2d8a1c02732e13f926f221cb56a8f.png" title=" Cuando selecciono una categoria y subcategoria (completed)" width="1366"/>
+                <img src="37408d323b8831fe037dffe06287f766016106f7eb9301f473cd47b6ee671b5c.png" title=" Y selecciono un producto de esa categoria" width="1366"/>
+                <img src="37408d323b8831fe037dffe06287f766016106f7eb9301f473cd47b6ee671b5c.png" title=" Harold escoger" width="1366"/>
+                <img src="37408d323b8831fe037dffe06287f766016106f7eb9301f473cd47b6ee671b5c.png" title=" Harold clicks on Selecciona el producto" width="1366"/>
+                <img src="b62054c936fee22f3fc6a857f92e24d9a36374aa14d865d3006ca354852b407c.png" title=" Harold clicks on Selecciona el boton agregar a la bolsa" width="1366"/>
+                <img src="2a550c1a0a6128cba76fa11265710ded956c6a2c70129a9351f60fefe14adc43.png" title=" Harold clicks on Selecciona el boton bolsa de compra" width="1366"/>
+                <img src="767a4498bb611eb5ce1669be6376cb9b0f1f164c567d0a4424cf627d4f56775f.png" title=" Harold clicks on Selecciona el boton ir a comprar" width="1366"/>
+                <img src="767a4498bb611eb5ce1669be6376cb9b0f1f164c567d0a4424cf627d4f56775f.png" title=" Harold escoger (completed)" width="1366"/>
+                <img src="767a4498bb611eb5ce1669be6376cb9b0f1f164c567d0a4424cf627d4f56775f.png" title=" Y selecciono un producto de esa categoria (completed)" width="1366"/>
+                <img src="f1f1378d4632a338d985c6afd9bed5d9ccdf98d15ed17f213df99b9f6fdb22d2.png" title=" Y diligencio los formularios opciones de despacho
+| direccion | barrio |
+| Cra 36 # 34 - 89 | Buenos Aires |" width="1366"/>
+                <img src="f1f1378d4632a338d985c6afd9bed5d9ccdf98d15ed17f213df99b9f6fdb22d2.png" title=" Harold diligenciar" width="1366"/>
+                <img src="f1f1378d4632a338d985c6afd9bed5d9ccdf98d15ed17f213df99b9f6fdb22d2.png" title=" Harold clicks on Selecciona el boton REGION" width="1366"/>
+                <img src="ccf0841e7c90c25d31e195d6bb99b90edbc48000c859b619c0ea0b9175ec7407.png" title=" Harold clicks on Selecciona el departamento" width="1366"/>
+                <img src="39b2e44f2b640b13d1530144aafa1138b100c04bb20a3754901e9442e0a85af9.png" title=" Harold clicks on Selecciona el boton ciudad" width="1366"/>
+                <img src="14e9cdb38d2599c5cbc39ce2061b3dc7375067a9742ac798b5a7800a1dd82152.png" title=" Harold clicks on Selecciona la ciudad" width="1366"/>
+                <img src="111f06c11698251dbaba1d9d3e797068c770f95da2e0aee65c1b2ea227c73273.png" title=" Harold clicks on Selecciona la comuna" width="1366"/>
+                <img src="10ef00c57e840f82810a535b0b64ed19880d6b348728303100ad231d230c29ed.png" title=" Harold clicks on Selecciona la comuna" width="1366"/>
+                <img src="02ceb4fd8071aba2a314f2e859d9dcbaa6434bfc15fb1c1862f5b4800de78301.png" title=" Harold clicks on Selecciona boton continuar" width="1366"/>
+                <img src="21f64971ef3eba3bb84c5e813b31c2ec0427c45416e6d8c38a020f61c8a52e15.png" title=" Harold enters 'Cra 36 # 34 - 89' into Digito la direccion" width="1366"/>
+                <img src="df3c0ea03550087c69106629ef3639c4c9a7f1cf2da8b0f970c2d6ac67123342.png" title=" Harold enters 'Buenos Aires' into DIgito el apartamento" width="1366"/>
+                <img src="e843dfe4a43f01b660c8ec1ef0aa4954fb788fb2a48ec935c703ca4c07ef2935.png" title=" Harold clicks on DIgito el apartamento" width="1366"/>
+                <img src="eab91d5e91c3b3e283aa73d4467f87b221d8c54d817f968b8ef1d1d206a88b66.png" title=" Harold clicks on Selecciona el boton continuar" width="1366"/>
+                <img src="eab91d5e91c3b3e283aa73d4467f87b221d8c54d817f968b8ef1d1d206a88b66.png" title=" Harold diligenciar (completed)" width="1366"/>
+                <img src="eab91d5e91c3b3e283aa73d4467f87b221d8c54d817f968b8ef1d1d206a88b66.png" title=" Y diligencio los formularios opciones de despacho
+| direccion | barrio |
+| Cra 36 # 34 - 89 | Buenos Aires | (completed)" width="1366"/>
+                <img src="955e7f433e06496959b80d609d1fae3586ea2ce3502827084c9bbcd08f599c01.png" title=" Y escojo el medio de pago tarjeta de credito" width="1366"/>
+                <img src="955e7f433e06496959b80d609d1fae3586ea2ce3502827084c9bbcd08f599c01.png" title=" Harold elegir" width="1366"/>
+                <img src="955e7f433e06496959b80d609d1fae3586ea2ce3502827084c9bbcd08f599c01.png" title=" Harold clicks on Selecciona la opcion otras tarjetas de credito" width="1366"/>
+                <img src="f1bd83614455a0c35a6bf4688dc9da053fc92f41ec0fd36ee9c520869bd68308.png" title=" Harold clicks on Selecciono el boton continuar con el medio de pago seleccionado" width="1366"/>
+                <img src="f1bd83614455a0c35a6bf4688dc9da053fc92f41ec0fd36ee9c520869bd68308.png" title=" Harold elegir (completed)" width="1366"/>
+                <img src="f1bd83614455a0c35a6bf4688dc9da053fc92f41ec0fd36ee9c520869bd68308.png" title=" Y escojo el medio de pago tarjeta de credito (completed)" width="1366"/>
+                <img src="7485d524789e5d455f616bb0499a5fcb7f0acbc04fc229b7c8fa2a8af5882f1b.png" title=" Y diligencio el formulario de tarjeta
+| nombreTarjeta | numeroTarjeta | codigoCVV |
+| harold altamiranda | 5452986875735484 | 206 |" width="1366"/>
+                <img src="7485d524789e5d455f616bb0499a5fcb7f0acbc04fc229b7c8fa2a8af5882f1b.png" title=" Harold rellenar" width="1366"/>
+                <img src="7485d524789e5d455f616bb0499a5fcb7f0acbc04fc229b7c8fa2a8af5882f1b.png" title=" Harold enters 'harold altamiranda' into Digito el nombre de la tarjeta" width="1366"/>
+                <img src="257be2fa1608e95bbcbe2c8ca57fa0e49767e4153f5240e843ae6402613747e2.png" title=" Harold enters '5452986875735484' into Digito el numero de la tarjeta" width="1366"/>
+                <img src="4d608b54cecc7dde852c2bf48bd9842de194fb63b49d5884438f8b40544c202a.png" title=" Harold enters '206' into Digito el codigo cvv de la tarjeta" width="1366"/>
+                <img src="bb767dbd850d5e0911d2bb3c2705644f089bd24eec97369d91b854daa71abf8d.png" title=" Harold clicks on Selecciono la opcion mes" width="1366"/>
+                <img src="bb767dbd850d5e0911d2bb3c2705644f089bd24eec97369d91b854daa71abf8d.png" title=" Harold clicks on Selecciono el mes" width="1366"/>
+                <img src="3cce69475e81a7be1b3fd2505e93ea41df5d7a78a3051fdd27986ccc4bc9222b.png" title=" Harold clicks on Selecciono la opcion anio" width="1366"/>
+                <img src="3cce69475e81a7be1b3fd2505e93ea41df5d7a78a3051fdd27986ccc4bc9222b.png" title=" Harold clicks on Selecciono el anio" width="1366"/>
+                <img src="a0d085ac5b1a8e0898873c3e752521a0570cba42b09d6c16253bd69f737c2d28.png" title=" Harold clicks on Selecciono el boton usar esta tarjeta" width="1366"/>
+                <img src="a0d085ac5b1a8e0898873c3e752521a0570cba42b09d6c16253bd69f737c2d28.png" title=" Harold rellenar (completed)" width="1366"/>
+                <img src="a0d085ac5b1a8e0898873c3e752521a0570cba42b09d6c16253bd69f737c2d28.png" title=" Y diligencio el formulario de tarjeta
+| nombreTarjeta | numeroTarjeta | codigoCVV |
+| harold altamiranda | 5452986875735484 | 206 | (completed)" width="1366"/>
+                <img src="1ea4d71f6a8ac24c24fa4c9cfb013669cfe144af11fc2aef54add0a2f4069a51.png" title=" Y diligencio el formulario de datos personales
+| nombre | apellido | correo | cedula | celular |
+| Harold | Altamiranda | harold29as@gmail.com | 1052942912 | 3004639870 |" width="1366"/>
+                <img src="1ea4d71f6a8ac24c24fa4c9cfb013669cfe144af11fc2aef54add0a2f4069a51.png" title=" Harold completar" width="1366"/>
+                <img src="1ea4d71f6a8ac24c24fa4c9cfb013669cfe144af11fc2aef54add0a2f4069a51.png" title=" Harold enters 'Harold' into Ingreso el nombre" width="1366"/>
+                <img src="c2609d11e30878f659bb29b12938a6eb1ae7f60986feca99d0e5df75aa1c9ffc.png" title=" Harold enters 'Altamiranda' into Ingreso el apellido" width="1366"/>
+                <img src="4938aee92cf03877e3d81ef1293f7b65b1b3417af3e720d8288921c975f44db7.png" title=" Harold enters 'harold29as@gmail.com' into Ingreso el correo " width="1366"/>
+                <img src="d99a88a8b78e5a5aff9ed13f1a728fd80d8118e8fc248f851955e9a6d0fdc46a.png" title=" Harold enters '1052942912' into Ingreso # CC" width="1366"/>
+                <img src="e2f602052f32f7f60e146b0614cf96c9b8c2fc9d58bafd77b45866870c0e82d9.png" title=" Harold enters '3004639870' into Ingreso # Celular" width="1366"/>
+                <img src="e2f602052f32f7f60e146b0614cf96c9b8c2fc9d58bafd77b45866870c0e82d9.png" title=" Harold completar (completed)" width="1366"/>
+                <img src="e2f602052f32f7f60e146b0614cf96c9b8c2fc9d58bafd77b45866870c0e82d9.png" title=" Y diligencio el formulario de datos personales
+| nombre | apellido | correo | cedula | celular |
+| Harold | Altamiranda | harold29as@gmail.com | 1052942912 | 3004639870 | (completed)" width="1366"/>
+                <img src="319646d357568d8283c6519081a1c96d0617be71cfe3f734f5838d9752632a7e.png" title=" Entonces valido que el mensaje modal tenga el siguiente valor &quot;INGRESAR TU ORDEN&quot;" width="1366"/>
+                <img src="319646d357568d8283c6519081a1c96d0617be71cfe3f734f5838d9752632a7e.png" title=" Then validacion" width="1366"/>
+                <img src="319646d357568d8283c6519081a1c96d0617be71cfe3f734f5838d9752632a7e.png" title=" Entonces valido que el mensaje modal tenga el siguiente valor &quot;INGRESAR TU ORDEN&quot; (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

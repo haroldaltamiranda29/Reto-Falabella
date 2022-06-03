@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c251eabd-17e8-4d3e-ba23-c340b2e3c4ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/falabella/questions/Validacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/falabella/questions/Validacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/falabella/tasks/Escoger.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/falabella/tasks/Escoger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/choucair/falabella/stepdefinitions/FalabellaStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/com/choucair/falabella/stepdefinitions/FalabellaStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Simulacion#20en#20la#20pagina#20de#20Falabella#20consulta#20y#20pago#20de#20productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Simulacion#20en#20la#20pagina#20de#20Falabella#20consulta#20y#20pago#20de#20productos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.choucair.falabella.runners.RunnerTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.choucair.falabella.runners.RunnerTags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.choucair.falabella.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.choucair.falabella.runners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Simulacion#20en#20la#20pagina#20de#20Falabella#20consulta#20y#20pago#20de#20productos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Simulacion#20en#20la#20pagina#20de#20Falabella#20consulta#20y#20pago#20de#20productos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.choucair.falabella.runners.RunnerTags.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.choucair.falabella.runners.RunnerTags.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/falabella/questions/Validacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/falabella/questions/Validacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/falabella/tasks/Escoger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/falabella/tasks/Escoger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/falabella/stepdefinitions/FalabellaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/falabella/stepdefinitions/FalabellaStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-36e2a8af297c916eee36f13b6190341f7df93f73fabd78a7eaace5d720945b93.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2A1z5D8752iZDFKPY9aNmuLX025" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.com.choucair.falabella.questions" />
+      <recent name="co.com.choucair.falabella.tasks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.choucair.falabella.runners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haltamirandas\Documents\Retos Falabella\src\test\resources\driver" />
+      <recent name="C:\Users\haltamirandas\Documents\Retos Falabella\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunnerTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.choucair.falabella.runners.RunnerTags&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RunnerTags" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c251eabd-17e8-4d3e-ba23-c340b2e3c4ec" name="Default Changelist" comment="" />
+      <created>1654191693283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654191693283</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1654270041451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1654270041451" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1654277925757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1654277925757" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1654276863961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1654276863961" />
+    <state x="264" y="66" width="901" height="595" key="#xdebugger.evaluate" timestamp="1654286659247">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="264" y="66" width="901" height="595" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1654286659247" />
+    <state width="1323" height="418" key="GridCell.Tab.0.bottom" timestamp="1654296618806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="418" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654296618806" />
+    <state width="1323" height="418" key="GridCell.Tab.0.center" timestamp="1654296618805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="418" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654296618805" />
+    <state width="1323" height="418" key="GridCell.Tab.0.left" timestamp="1654296618805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="418" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654296618805" />
+    <state width="1323" height="418" key="GridCell.Tab.0.right" timestamp="1654296618806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="418" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654296618806" />
+    <state width="1323" height="464" key="GridCell.Tab.1.bottom" timestamp="1654286676407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654286676407" />
+    <state width="1323" height="464" key="GridCell.Tab.1.center" timestamp="1654286676407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1654286676407" />
+    <state width="1323" height="464" key="GridCell.Tab.1.left" timestamp="1654286676407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1654286676407" />
+    <state width="1323" height="464" key="GridCell.Tab.1.right" timestamp="1654286676407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1654286676407" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1654286420443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1654286420443" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1654273095422">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1654273095422" />
+  </component>
+</project>
